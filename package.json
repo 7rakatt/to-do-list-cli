@@ -1,0 +1,20 @@
+{
+  "name": "to-do-list-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs": "^0.0.1-security",
+    "inquirer": "^10.1.8",
+    "nodemon": "^3.1.4"
+  }
+}
